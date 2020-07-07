@@ -14,7 +14,7 @@
 		$results_id2 = query_database("CREATE TABLE UserInfo(UserID INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY Key, Username VARCHAR(50) NOT NULL, UserFirstName VARCHAR(50) NOT NULL, UserLastName VARCHAR(50) NOT NULL, UserPhone VARCHAR(32) NOT NULL, PasswordEncrypted VARCHAR(255) NOT NULL, PasswordSalt VARBINARY(100) NOT NULL, EmailValidationString VARCHAR(32) NOT NULL, UserType VARCHAR(10) NOT NULL, UNIQUE (Username))");
 
 		// Administrators
-		$results_id3 = query_database("INSERT INTO UserInfo(UserID, Username, UserFirstName, UserLastName, UserPhone, PasswordEncrypted, PasswordSalt, EmailValidationString, UserType) VALUES (NULL, 'kous92@gmail.com', 'Koussaïla', 'BEN MAMAR', '+1 514-561-6346', '$password_encrypted','$salt', 'TODO_EMAIL_VALIDATION', 'admin');");
+		$results_id3 = query_database("INSERT INTO UserInfo(UserID, Username, UserFirstName, UserLastName, UserPhone, PasswordEncrypted, PasswordSalt, EmailValidationString, UserType) VALUES (NULL, 'ndimitri.ngoutouga1@gmail.com', 'Dimitri', 'NGOUTOUGA', '+1 514-561-6346', '$password_encrypted','$salt', 'TODO_EMAIL_VALIDATION', 'admin');");
 		$results_id4 = query_database("INSERT INTO UserInfo(UserID, Username, UserFirstName, UserLastName, UserPhone, PasswordEncrypted, PasswordSalt, EmailValidationString, UserType) VALUES (NULL, 'onlinestore.project.concordia@gmail.com', 'Admin', '', '+1 111-111-111', '$password_encrypted2','$salt', 'TODO_EMAIL_VALIDATION', 'admin');");
 
 		$results_id5 = query_database("INSERT INTO UserInfo(UserID, Username, UserFirstName, UserLastName, UserPhone, PasswordEncrypted, PasswordSalt, EmailValidationString, UserType) VALUES (NULL, 'kb9@gmail.com', 'Karim', 'BENZEMA', '+33 6 24 70 93 34', '$password_encrypted3','$salt', 'TODO_EMAIL_VALIDATION', 'regular');");
@@ -50,6 +50,6 @@
 	}
 
 /*
-	INSERT INTO UserInfo (UserID, Username, UserFirstName, UserLastName, UserPhone, PasswordEncrypted, PasswordSalt, EmailValidationString, UserType) VALUES (1, 'kous92@gmail.com', 'Koussaïla', 'BEN MAMAR', '+1 514-561-6346', '$2y$10$yv1rtd0hgHdM1vZJl5GJlu3wsO8qLyNxlKr6pQ6zWJFOJlMYLH15q', 0x5639ec94ac992a9e6a126e490e91c80891b62de8bf7b, 'TODO_EMAIL_VALIDATION', 'admin');
+	INSERT INTO UserInfo (UserID, Username, UserFirstName, UserLastName, UserPhone, PasswordEncrypted, PasswordSalt, EmailValidationString, UserType) VALUES (1, 'ndimitri.ngoutouga1@gmail.com', 'Dimitri', 'NGOUTOUGA', '+1 514-561-6346', '$2y$10$yv1rtd0hgHdM1vZJl5GJlu3wsO8qLyNxlKr6pQ6zWJFOJlMYLH15q', 0x5639ec94ac992a9e6a126e490e91c80891b62de8bf7b, 'TODO_EMAIL_VALIDATION', 'admin');
 */
 ?>

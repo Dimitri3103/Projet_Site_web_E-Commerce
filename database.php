@@ -32,8 +32,8 @@
 		// - You will need to verify by sms your email to be able to
 		//   use Gmail's SMTP server
 		$from_name = "Digital Phone";
-		$mail->Username = "onlinestore.project.concordia@gmail.com";  
-		$mail->Password = "ConcordiaUniversity";           
+		$mail->Username = "youremail@gmail.com";  
+		$mail->Password = "yourpassword";           
 
 		$mail->IsHTML(true);
 		$mail->IsSMTP(); // enable SMTP

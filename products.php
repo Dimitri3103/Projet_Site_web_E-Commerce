@@ -139,7 +139,7 @@
 		echo '<footer class="v1">
 				<span id="time_date"></span>
 			    <script type="text/javascript">window.onload = time_date(\'time_date\');</script>&nbsp;&nbsp;&nbsp;
-			    - &nbsp;&nbsp;&nbsp;Copyright Koussaïla BEN MAMAR, November 2016, all rights reserved
+			    - &nbsp;&nbsp;&nbsp;Copyright Simon Dimitri NGOUTOUGA, Mai 2019, all rights reserved
 			</footer>'; 
 	}
 	else
@@ -147,7 +147,7 @@
 		echo '<footer>
 				<span id="time_date"></span>
 			    <script type="text/javascript">window.onload = time_date(\'time_date\');</script>&nbsp;&nbsp;&nbsp;
-			    - &nbsp;&nbsp;&nbsp;Copyright Koussaïla BEN MAMAR, November 2016, all rights reserved
+			    - &nbsp;&nbsp;&nbsp;Copyright Simon Dimitri NGOUTOUGA, Mai 2019, all rights reserved
 			  </footer>'; 
 	}
 ?>

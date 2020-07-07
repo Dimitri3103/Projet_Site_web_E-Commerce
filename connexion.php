@@ -2,14 +2,14 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Hedgehog Education</title>
+	<title>Connexion</title>
 	<link rel="stylesheet" type="text/css" href=".design_connexion.css">
 	<script type="text/javascript" src="./JS/date_heure.js"></script>
-	<title>Hedgehog Education</title>
+	<title>Connexion</title>
 </head>
 <body>
 	<header>
-		<h1>Hedgehog Education</h1>
+		<h1>Connexion</h1>
 		<div class="menu">
 			<ul>
 				<li><a href="index.php">Accueil</a></li>
@@ -44,7 +44,7 @@
 <footer>
 	<span id="date_heure"></span>
     <script type="text/javascript">window.onload = date_heure('date_heure');</script> &nbsp;&nbsp;&nbsp;
-    - &nbsp;&nbsp;&nbsp;Copyright Hedgehog Education, Mars 2017, tous droits réservés
+    - &nbsp;&nbsp;&nbsp;Copyright Simon Dimitri NGOUTOUGA, Mai 2019, all rights reserved
 </footer>
 
 </body>
