@@ -1,6 +1,7 @@
-# Projet Web Programming L3 EFREI/Concordia - Site de E-Commerce
+# Projet de fin de 3e Année à l'Université Libre de Tunis - Site de E-Commerce
 
-Projet Programmation Web (Web Programming) de L3 lors de mon séjour au Canada, à Montréal. Il s'agit d'un site de E-Commerce. Le contenu est en anglais. J'ai choisi comme thématique une boutique en ligne sur la vente de smartphones.
+Projet scolaire en trio de conception et développement d'une plateforme
+de commercialisation en ligne de smartphones
 - Simulation de paiement par carte bancaire (vérification avec l'algorithme de Luhn)
 - Panier client
 - Compte client
